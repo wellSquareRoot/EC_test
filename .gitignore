@@ -1,0 +1,19 @@
+# 忽略 Keil 编译生成的中间目标文件与二进制文件
+Objects/
+Listings/
+*.axf
+*.build_log.htm
+*.d
+*.o
+*.crf
+*.lnp
+*.dep
+*.htm
+*.map
+*.iex
+*.bak
+# 忽略用户个人配置与断点记录（保留 .uvprojx 工程主文件即可）
+*.uvoptx
+*.uvgui.*
+# 忽略 VS Code 个人临时配置
+.vscode/
